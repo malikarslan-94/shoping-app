@@ -1,0 +1,33 @@
+{
+  "name": "klinker-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f .env.development next",
+    "dev:prod": "env-cmd -f .env.production next",
+    "build": "env-cmd -f .env.development next build",
+    "build:prod": "env-cmd -f .env.production next build && next export",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-spring/addons": "^9.0.0-beta.33",
+    "carousel": "0.0.3",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-multi-carousel": "^2.6.2",
+    "react-spring": "^9.1.1",
+    "sweetalert": "^2.1.2",
+    "use-smooth-scroll": "^1.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "env-cmd": "^10.1.0",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3"
+  }
+}
