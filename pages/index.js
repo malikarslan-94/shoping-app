@@ -50,10 +50,11 @@ const Home = () => {
         >
           <div class=" lg:inset-y-0 absolute">
             <img
-              className="h-full w-screen"
+              className="h-full w-screen z-10"
               src="./heroSection.png"
               alt=""
             />
+            <div className=" absolute opacity-60 left-1/4 top-2/4 z-40" style={{ backgroundColor: "#594843", height: "30vh", width: "20vw" }}></div>
           </div>
 
         </main>
@@ -61,54 +62,149 @@ const Home = () => {
         <div className="h-96"><p className="text-white">Empty Div</p></div>
         <div className="h-48"><p className="text-white">Empty Div</p></div>
         <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
-          <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3  xl:grid-cols-6 col-gap-6">
+          <div class="max-w-screen-xl px-36 gap-3 mx-auto lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3  xl:grid-cols-6">
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-full justify-self-center"
               src="./Rectangle (3).png"
               alt=""
             />
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-full p-1 self-end justify-self-center"
               src="./Rectangle (4).png" alt=""
             />
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-full p-1 self-end justify-self-center"
               src="./Rectangle (5).png" alt=""
             />
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (3).png" alt=""
+            />
+            <img
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+            <img
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (5).png" alt=""
+            />
+          </div>
+        </div>
+
+        {/* --------------------------------------------- */}
+
+        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
+          <div class="max-w-screen-xl flex flex-row overflow-scroll px-36 mx-auto lg:px-8 xl:px-4">
+            <img
+              class="w-3/12 justify-self-center"
+              src="./Rectangle (3).png"
+              alt=""
+            />
+            <img
+              class="w-3/12 p-1 self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+            <img
+              class="w-3/12 p-1 self-end justify-self-center"
+              src="./Rectangle (5).png" alt=""
+            />
+            <img
+              class="w-3/12 p-1 self-end justify-self-center"
               src="./Rectangle (6).png" alt=""
             />
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-3/12 p-1 self-end justify-self-center"
               src="./Rectangle (7).png" alt=""
             />
             <img
-              class="w-4/12 p-1 self-end justify-self-center"
+              class="w-3/12 p-1 self-end justify-self-center"
               src="./Rectangle (8).png" alt=""
             />
           </div>
         </div>
 
+        {/* ----------------------------------------------------- */}
+
+        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
+          <div class="max-w-screen-xl px-48 mx-auto lg:px-8 xl:px-4 grid grid-cols-2">
+            <img
+              class="w-full justify-self-center"
+              src="./Rectangle (3).png"
+              alt=""
+            />
+            <img
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+            <img
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (5).png" alt=""
+            />
+            <img
+              class="w-full p-1 self-end justify-self-center"
+              src="./Rectangle (6).png" alt=""
+            />
+
+          </div>
+        </div>
+        {/* ------------------------------------------------------- */}
+        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
+          <div class="max-w-screen-xl px-20 mx-auto lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-4  xl:grid-cols-6">
+            <img
+              class="w-full justify-self-center"
+              src="./Rectangle (3).png"
+              alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (5).png" alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (3).png" alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (5).png" alt=""
+            />
+            <img
+              class="w-full justify-self-center"
+              src="./Rectangle (3).png"
+              alt=""
+            />
+            <img
+              class="w-full self-end justify-self-center"
+              src="./Rectangle (4).png" alt=""
+            />
+
+          </div>
+        </div>
+
+
       </div>
 
 
-      {/* <div class="lg:text-left md:px-20 px-5 bg-blue-100 pt-1 pb-20">
-        <div className="max-w-7xl mx-auto">
+      <div class="lg:text-left md:px-10 px-5 pt-1 pb-20">
+        <div className="max-w-2xl mx-auto">
           <h1 class="text-sm tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-3xl my-7">
-            <span class=" text-4xl leading-8 font-bold tracking-tight text-gray-500 sm:text-4xl flex justify-center">
-              Testimonials
+            <span class=" text-4xl leading-8 font-light tracking-tight text-gray-500 sm:text-4xl flex justify-center">
+              Would highly recommend
             </span>
           </h1>
-          <p class="mt-2 mb-4 text-xl leading-8 font-semibold tracking-tight text-gray-700 sm:text-xl flex justify-center  md:mx-48 text-center">
-            We are very fortunate to have formed excellent partnerships with
-            many of our clients. And we’ve formed more than just working
-            relationships with them; we have formed true friendships. Here’s
-            what they’re saying about us.
+          <p class="mt-12 mb-4 text-base leading-8 font-light tracking-tight text-gray-700 sm:text-xl flex justify-center  md:mx-16 text-center">
+            "I got several of The White Invites items for my bridesmaids and they were beautiful!! I put them in my bridesmaid proposal boxes and the girls loved them!! (I really regret not getting some of the items for myself!!) Great prices and shipped really quickly. Would highly recommend their shop!!"
           </p>
-          <Testimonial />
+          {/* <Testimonial /> */}
         </div>
-      </div> */}
+      </div>
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
         <path
           fill="#DBEAFE"

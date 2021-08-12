@@ -10,13 +10,12 @@ function Footer() {
           <div class="sm:flex  ">
             <Link href='/'>
               <div class="md:w-3/12  md:h-16 h-24  relative pt-6 cursor-pointer">
-                <img className='absolute w-full h-full object-cover md:-mt-10   -ml-5' src='/logo.png' alt='error' ></img>
+                {/* <img className='absolute w-full h-full object-cover md:-mt-10   -ml-5' src='/logo.png' alt='error' ></img> */}
               </div>
             </Link>
             <div class="sm:w-1/4 text-center md:text-left h-auto sm:mt-0 mt-8 ">
-              <div class="text-grayLight font-bold mb-2">Resources</div>
+              <div class="text-grayLight font-light mb-2">POWWOW</div>
               <ul class="list-reset leading-normal">
-                <li class="hover:text-green-dark text-grayLight  hover:text-secondary"><Link href='/notary-academy'>Notary academy</Link></li>
 
                 <li class="hover:text-green-dark text-grayLight  hover:text-secondary"><Link href='/blog'>Handy Information</Link></li>
                 <li class="hover:text-blue text-grayLight hover:text-secondary"><Link href='/pdfguide'>PDF guide</Link></li>
@@ -27,7 +26,7 @@ function Footer() {
 
             </div>
             <div class="sm:w-1/4 h-auto text-center md:text-left sm:mt-0 mt-8">
-              <div class="text-grayLight mb-2 font-bold">About us</div>
+              <div class="text-grayLight mb-2 font-light">SHOP</div>
               <ul class="list-reset leading-normal">
                 <li class="hover:text-green-dark text-grayLight  hover:text-secondary"><Link href='/about'>Our story</Link></li>
                 <li class="hover:text-green-dark text-grayLight  hover:text-secondary"><Link href='/careers'>Careers</Link></li>
@@ -37,7 +36,16 @@ function Footer() {
             </div>
 
             <div class="sm:w-1/4 h-auto text-center md:text-left sm:mt-0 mt-8">
-              <div class="text-grayLight mb-2 font-bold">Support</div>
+              <div class="text-grayLight mb-2 font-light">HELP</div>
+              <ul class="list-reset leading-normal">
+                <li class="hover:text-green-dark text-grayLight hover:text-secondary"><Link href='/contact'>Contact us</Link></li>
+                <li class="hover:text-green-dark text-grayLight hover:text-secondary"><Link href='/faq'>FAQs</Link></li>
+                <li class="hover:text-green-dark text-grayLight hover:text-secondary"><Link href='/pricing'>Pricing</Link></li>
+              </ul>
+
+            </div>
+            <div class="sm:w-1/4 h-auto text-center md:text-left sm:mt-0 mt-8">
+              <div class="text-grayLight mb-2 font-light">COMPANY</div>
               <ul class="list-reset leading-normal">
                 <li class="hover:text-green-dark text-grayLight hover:text-secondary"><Link href='/contact'>Contact us</Link></li>
                 <li class="hover:text-green-dark text-grayLight hover:text-secondary"><Link href='/faq'>FAQs</Link></li>
