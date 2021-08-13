@@ -1,7 +1,7 @@
 // import React {useState} from "react";
 import { useState, useRef } from "react";
 import Link from "next/link";
-import Testimonial from "./../Testimonials/index";
+import Testimonial from "../Carousel3/index";
 import pricing from "./../../pages/pricing";
 import { useSmoothScroll } from "use-smooth-scroll";
 

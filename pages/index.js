@@ -2,6 +2,9 @@ import "tailwindcss/tailwind.css";
 import "react-multi-carousel/lib/styles.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Carousel3 from "../components/Carousel3"
+import Movers from "../components/Movers"
+
 import { useState, useRef } from "react";
 
 const Home = () => {
@@ -61,7 +64,7 @@ const Home = () => {
 
         <div className="h-96"><p className="text-white">Empty Div</p></div>
         <div className="h-48"><p className="text-white">Empty Div</p></div>
-        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
+        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-2">
           <div class="max-w-screen-xl px-36 gap-3 mx-auto lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3  xl:grid-cols-6">
             <img
               class="w-full justify-self-center"
@@ -90,39 +93,14 @@ const Home = () => {
             />
           </div>
         </div>
-
-        {/* --------------------------------------------- */}
-
-        <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
-          <div class="max-w-screen-xl flex flex-row overflow-scroll px-36 mx-auto lg:px-8 xl:px-4">
-            <img
-              class="w-3/12 justify-self-center"
-              src="./Rectangle (3).png"
-              alt=""
-            />
-            <img
-              class="w-3/12 p-1 self-end justify-self-center"
-              src="./Rectangle (4).png" alt=""
-            />
-            <img
-              class="w-3/12 p-1 self-end justify-self-center"
-              src="./Rectangle (5).png" alt=""
-            />
-            <img
-              class="w-3/12 p-1 self-end justify-self-center"
-              src="./Rectangle (6).png" alt=""
-            />
-            <img
-              class="w-3/12 p-1 self-end justify-self-center"
-              src="./Rectangle (7).png" alt=""
-            />
-            <img
-              class="w-3/12 p-1 self-end justify-self-center"
-              src="./Rectangle (8).png" alt=""
-            />
-          </div>
+        <div className="mt-2 max-w-4xl mx-auto ">
+          <p className="text-center font-extralight font-mono" style={{ fontSize: "19px", color: "#454545" }}>Find everything you need for the bachelorette party, bridesmaid gifts and personalized gifts</p>
+          <p className="text-center font-extralight font-mono mt-5" style={{ fontSize: "19px", color: "#454545" }}>We're an online boutique that specializes in pretty party goods for bachelorette parties & the most perfect bridesmaid gifts that your wedding party will love! From wine tumblers, to bachelorette party shirts and lace robes - we are your one stop shop for everything you need!</p>
         </div>
+        {/* --------------------------------------------- */}
+        <div className="mx-auto text-center mt-10"><p className="font-mono" style={{ fontSize: "19px", color: "#454545" }}>Customer Top Picks</p></div>
 
+        <Movers />
         {/* ----------------------------------------------------- */}
 
         <div class=" lg:pb-16 mb-12 lg:mb-16 mt-20">
@@ -194,24 +172,11 @@ const Home = () => {
 
       <div class="lg:text-left md:px-10 px-5 pt-1 pb-20">
         <div className="max-w-2xl mx-auto">
-          <h1 class="text-sm tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-3xl my-7">
-            <span class=" text-4xl leading-8 font-light tracking-tight text-gray-500 sm:text-4xl flex justify-center">
-              Would highly recommend
-            </span>
-          </h1>
-          <p class="mt-12 mb-4 text-base leading-8 font-light tracking-tight text-gray-700 sm:text-xl flex justify-center  md:mx-16 text-center">
-            "I got several of The White Invites items for my bridesmaids and they were beautiful!! I put them in my bridesmaid proposal boxes and the girls loved them!! (I really regret not getting some of the items for myself!!) Great prices and shipped really quickly. Would highly recommend their shop!!"
-          </p>
-          {/* <Testimonial /> */}
+
+          <Carousel3 />
         </div>
       </div>
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-        <path
-          fill="#DBEAFE"
-          fill-opacity="1"
-          d="M0,224L60,218.7C120,213,240,203,360,181.3C480,160,600,128,720,106.7C840,85,960,75,1080,69.3C1200,64,1320,64,1380,64L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
-        ></path>
-      </svg> */}
+
       <Footer />
     </div>
   );
