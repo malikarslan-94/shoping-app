@@ -62,15 +62,15 @@ function Carousel3() {
         keyBoardControl={true}
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
-        itemClass=" py-10 "
+        itemClass=" py-5 "
       >
 
 
         {array.map((item) => (
-          <div class="lg:text-left md:px-10 px-5 pt-1 pb-20 w-full">
+          <div class="lg:text-left md:px-5 px-5 pt-1 pb-20 w-full">
             <div className="mx-auto">
-              <h1 class="text-sm tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-3xl my-7">
-                <span class=" text-4xl leading-8 font-light tracking-tight text-gray-500 sm:text-4xl flex justify-center">
+              <h1 class="text-sm tracking-wide font-extrabold text-gray-900 sm:text-3xl md:text-3xl my-7">
+                <span class=" text-4xl leading-8 font-light tracking-wide text-gray-500 sm:text-4xl flex justify-center">
                   {item.heading}
                 </span>
               </h1>

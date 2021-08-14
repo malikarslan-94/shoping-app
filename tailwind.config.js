@@ -4,14 +4,19 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    // colors: {
-    //   secondary: "#42a6f5",
-    //   textHeading:"#6b7280",
-    //   lightgrayText: "#fbfbfc",
-    //   spanColor: "#FAAB60",
-    //   transparent: "transparent",
-    //   white:"#FFFFFF"
-    // },
+    fontFamily: {
+      'sans': 'Montserrat',
+      'display': 'Montserrat',
+      'body': 'Montserrat',
+    },
+    colors: {
+      secondary: "#42a6f5",
+      textHeading: "#6b7280",
+      lightgrayText: "#fbfbfc",
+      spanColor: "#FAAB60",
+      transparent: "transparent",
+      white: "#FFFFFF"
+    },
     extend: {
       backgroundImage: (theme) => ({
         "klinkerwork-pattern":

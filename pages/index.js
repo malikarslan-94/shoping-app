@@ -170,10 +170,21 @@ const Home = () => {
       </div>
 
 
-      <div class="lg:text-left md:px-10 px-5 pt-1 pb-20">
-        <div className="max-w-2xl mx-auto">
+      <div class="lg:text-left md:px-10 px-5 pt-1">
+        <div className="max-w-4xl mx-auto">
 
           <Carousel3 />
+        </div>
+      </div>
+      <div className="flex justify-center flex-col py-10 space-y-2" style={{ backgroundColor: "#f2f1f1" }}>
+        <p className="text-center uppercase tracking-widest font-light" style={{ color: "#2B2A2A" }}>Subscribe</p>
+        <p className="text-center" style={{ color: "#2B2A2A" }}>Sign up to get the latest on sales, new releases and more …</p>
+
+        <div className="flex justify-center">
+          <form class="m-4 flex">
+            <input class="rounded-l-lg p-2 mr-0  bg-white" placeholder="your@mail.com" />
+            <button class="px-8 rounded-r-lg  text-white font-bold p-2 uppercase border-t border-b border-r" style={{ backgroundColor: "#deb6bc" }}>Subscribe</button>
+          </form>
         </div>
       </div>
 
