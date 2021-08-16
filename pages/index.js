@@ -38,12 +38,12 @@ const Home = () => {
     <div class="relative bg-white" style={{ scrollBehavior: "smooth" }}>
       <div class="max-w  flex-row">
         <Header
-          mainHeader={mainHeader}
-          scrollReff={scrollRef}
-          KlinkerWork={KlinkerWork}
-          benifits={benifits}
-          keyFeature={keyFeature}
-          mobileHeaderStatus={mobileHeaderStatus}
+        // mainHeader={mainHeader}
+        // scrollReff={scrollRef}
+        // KlinkerWork={KlinkerWork}
+        // benifits={benifits}
+        // keyFeature={keyFeature}
+        // mobileHeaderStatus={mobileHeaderStatus}
         />
         <main
           class={
@@ -99,7 +99,6 @@ const Home = () => {
         </div>
         {/* --------------------------------------------- */}
         <div className="mx-auto text-center mt-10"><p className="font-mono" style={{ fontSize: "19px", color: "#454545" }}>Customer Top Picks</p></div>
-
         <Movers />
         {/* ----------------------------------------------------- */}
 
